@@ -1,0 +1,194 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(236, 164, 137);
+}
+nav{
+    background-color: rgb(46, 45, 45);
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+.ul-nav{
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+.ul-nav li{
+    display: flex;
+    margin: 10px;
+    list-style: none;
+    background-color: rgb(248, 225, 92);
+    width: 80px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+li a:link{
+    text-decoration: none;
+    color: black;
+}
+li a:visited{
+    text-decoration: none;
+    color: black;
+}
+.hero{
+    height:400px;
+    background-image: url(https://codetheweb.blog/assets/img/posts/css-advanced-background-images/cover.jpg);
+    display:flex;
+    align-items: center;
+    padding-bottom:10px ;
+    justify-content: space-around;
+}
+h1{
+    font-size: 46px;
+}
+.hero img{
+    width: 200px;
+
+}
+.hero p{
+    padding-top: 10px;
+    padding-left: 20px;
+    width: 300px;
+    line-clamp: 2;
+}
+.forSell-show{
+    margin-top: 20px;
+    padding: 20px;
+}
+.forSell-show h2{
+    padding-bottom: 20px;
+    text-decoration:underline;
+}
+.card-show{
+    display: flex;
+}
+.card-show > .card1{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightpink;
+    line-height: 40px;
+}
+.card-show > .card2{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightpink;
+    line-height: 40px;
+}
+.card-show > .card3{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: lightpink;
+    line-height: 40px;
+}
+footer{
+    background-color: rgb(245, 177, 187);
+    display: flex;
+    justify-content: space-around;
+}
+footer .logo{
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: center;
+}
+footer ul{
+    padding-top: 30px;
+    line-height: 30px;
+}
+.Infor{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.Infor > .cardinof1{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.Infor img{
+    border: 1;
+    border-radius:10px;
+}
+.Infor > .cardinof1 p{
+    line-clamp: 3;
+    margin: 10px;
+
+}
+.Infor > .cardinof2{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.Infor > .cardinof2 p{
+    line-clamp: 3;
+    margin: 10px;
+
+}
+.Infor > .cardinof3{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.Infor > .cardinof3 p{
+    line-clamp: 3;
+    margin: 10px;
+
+}
+.aboutus{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.aboutus h2{
+    margin-bottom:20px;
+}
+.aboutus img{
+    margin: 10px;
+    border: 1;
+    border-radius:10px;
+}
+.show-of-thebest-sell img{
+    border: 1;
+    border-radius: 10px;
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+}
+.show-of-thebest-sell{
+    display: flex;
+    justify-content: center;
+}
+.show-product1 h2{
+    margin: 30px;
+    text-decoration: underline;
+}
+.show-product2{
+    display: grid;
+    grid-template-columns:auto auto auto auto;
+}
+.show-product2 img{
+    width: 300px;
+    border-radius: 1;
+    border-radius:10px ;
+    margin: 10px;
+}
+.sell2{
+    display: flex;
+    justify-content: center;
+}
